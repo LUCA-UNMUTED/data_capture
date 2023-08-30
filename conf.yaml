@@ -1,0 +1,16 @@
+DATA_CAPTURE:
+  DIRECTORIES:
+    - 'gsr'
+    - 'websocket'
+  ROOT_DATA_PATH: 'C:\Users\student\Documents\git\data_capture\data'
+  SD_CARD_TIME: "30m"
+  GSR:
+    MOVEMENT: "gsr_mov.csv"
+    PPG: "gsr_ppg.csv"
+    EDA: "gsr_eda.csv"
+  STREAM:
+    IP: "192.168.50.188"
+    PORT: 8081
+  WS:
+    IP: "192.168.50.188"
+    PORT: 8081

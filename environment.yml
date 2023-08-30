@@ -1,0 +1,19 @@
+name: UNMUTED
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python=3.10
+  - numpy
+  - pyyaml=6.0
+  - liblsl=1.16.1
+  - websockets=10.3
+  - pip
+  - pyserial=3.5
+  - pip:
+      - pywin32==304
+      - brainflow==5.5
+      - pylsl==1.16.0
+      - pyinstaller
+      - python-osc
+      - pyftdi
